@@ -1,0 +1,72 @@
+
+.file-preview-container {
+    height: auto;
+    width: 350px;
+    padding: 15px;
+    /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   }
+ 
+ .file-preview {
+     max-width: 100%;
+     max-height: 100%;
+ }
+ 
+ .text-preview{
+    /* wordBreak: 'break-word' */
+   word-break: break-all;
+   padding: 10px;
+ }
+ 
+ .area {
+     width: 100%;
+     resize: none;
+     border: none;
+ }
+ .area:focus {
+     outline: none; /* Remove the outline */
+     border: none; /* Remove the border */
+   }
+ .preview{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .action button{
+     border-radius: 20px;
+ }
+ 
+ 
+ 
+ 
+ /* @media (max-width: 460px) {
+     .postContent .MuiGrid-item {
+         flex-basis: 100%;
+         max-width: 100%;
+     }
+ 
+     .postContent .MuiDialogTitle-root,
+     .postContent .MuiDialogContent-root,
+     .postContent .MuiDialogActions-root {
+         padding: 8px;
+     }
+ 
+     .postContent .area {
+         width: calc(100% - 16px); 
+     }
+    
+ } */
+ /* @media (max-width: 600px) {
+     .file-preview-container {
+         width: 100%;
+     }
+ } */
+ 
+ 
+ /* ,position: 'absolute', bottom: '10px',left: '85%', transform: 'translate(-50%,100%)'  */
+ 
+ 
+ 
+ 
+ 
